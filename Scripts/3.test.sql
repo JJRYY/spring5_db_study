@@ -5,4 +5,6 @@ desc member;
 select * from member;
 select count(*) from member;
 
-delete from member where email='test@test.co.kr';
+delete from member where id > 4;
+
+alter table member auto_increment=5;
